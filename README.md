@@ -108,6 +108,6 @@ Alternate implementation of the same pattern.
 
 ---
 
-Created with care by **Dinesh Chandra — TheComputationalCore**  
+Created by **Dinesh Chandra — TheComputationalCore**  
 GitHub: https://github.com/TheComputationalCore  
 YouTube: https://www.youtube.com/@TheComputationalCore  
