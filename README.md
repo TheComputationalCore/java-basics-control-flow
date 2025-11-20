@@ -1,5 +1,8 @@
 # 📘 Java Basics: Control Flow
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+
 This repository contains a collection of beginner-friendly Java programs focused on **control flow**, including looping, conditional statements, number operations, and pattern generation. Each file is a standalone logic exercise designed to build foundational programming skills.
 
 ## 📌 Overview
