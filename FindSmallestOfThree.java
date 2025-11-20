@@ -1,8 +1,8 @@
-package Task1;
+package java-basic-programs;
 
 import java.util.Scanner;
 
-public class QuestionFour {
+public class FindSmallestOfThree {
 	public static void main(String[] args) {
 		try (Scanner obj = new Scanner(System.in)) {
 			System.out.println("Enter the numbers");
