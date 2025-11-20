@@ -1,97 +1,132 @@
-# Java OOP Fundamentals
+# Java Basics: Control Flow
 
-![Java Build](https://github.com/TheComputationalCore/java-oop-fundamentals/actions/workflows/java-build.yml/badge.svg)
+![Java Build](https://github.com/TheComputationalCore/java-basics-control-flow/actions/workflows/java-ci.yml/badge.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
-This repository contains Java programs demonstrating fundamental Object-Oriented Programming (OOP) concepts such as encapsulation, inheritance, and basic class design. It includes four tasks (1.1 to 1.4), each illustrating a different OOP principle.
+This repository contains a set of beginner-friendly Java programs demonstrating **control flow**, including looping, branching, number processing, pattern printing, and basic input/output logic.
+
+It includes **7 standalone programs**, each focusing on a fundamental Java concept.
+
+---
 
 ## 📁 Project Structure
+
 ```
-src/
-├── Account.java
-├── Person.java
-├── Person_2.java
-├── Product.java
-├── XYZ.java
-└── screenshots/
-    ├── 1.1.png
-    ├── 1.2.a.png
-    ├── 1.2.b.png
-    ├── 1.3.png
-    └── 1.4.png
+java-basics-control-flow/
+├── src/
+│   ├── PrintNumberRange.java
+│   ├── CheckNumberSign.java
+│   ├── ReverseNumber.java
+│   ├── FindSmallestOfThree.java
+│   ├── DiscountCalculator.java
+│   ├── NumberPatternGenerator.java
+│   ├── NumberPatternGeneratorAlt.java
+├── screenshots/
+│   ├── printnumrange.png
+│   ├── numcheck.png
+│   ├── reversenum.png
+│   ├── smallnum.png
+│   ├── discountcal.png
+│   ├── pattern.png
+├── LICENSE
+└── README.md
 ```
 
-## 📝 Task Overviews
+---
 
-### **Task 1.1 — Person Class**
-- Implements a `Person` class with `name` and `age`.
-- Default age is **18**.
-- Includes constructor + method to display info.
+## 📝 Program Overviews
 
-▶️ **Screenshot:**  
-![1.1](screenshots/1.1.png)
+### **1️⃣ PrintNumberRange.java**  
+Prints numbers from **10 to 50** using a loop.
+
+📸 Screenshot:  
+![Print Number Range](screenshots/printnumrange.png)
 
 ---
 
-### **Task 1.2 — Product Class**
-- Represents products with `pid`, `price`, and `quantity`.
-- `ProductMain`:
-  - Accepts **5 products**.
-  - Finds **highest price product**.
-  - Calculates **total expenditure**.
+### **2️⃣ CheckNumberSign.java**  
+Checks whether a number is **positive** or **negative**.
 
-▶️ **Screenshots:**  
-![1.2a](screenshots/1.2.a.png)
-![1.2b](screenshots/1.2.b.png)
+📸 Screenshot:  
+![Number Sign Check](screenshots/numcheck.png)
 
 ---
 
-### **Task 1.3 — Account Class**
-- Implements `deposit`, `withdraw`, and `display` methods.
-- Includes default + parameterized constructors.
+### **3️⃣ ReverseNumber.java**  
+Reverses digits in a number  
+Example: `876 → 678`
 
-▶️ **Screenshot:**  
-![1.3](screenshots/1.3.png)
+📸 Screenshot:  
+![Reverse Number](screenshots/reversenum.png)
 
 ---
 
-### **Task 1.4 — Inheritance (Person → Employee)**
-- `Employee` extends `Person`.
-- Adds `employeeID` and `salary`.
-- Uses `super()` for parent initialization.
+### **4️⃣ FindSmallestOfThree.java**  
+Inputs three numbers and prints the **smallest**.
 
-▶️ **Screenshot:**  
-![1.4](screenshots/1.4.png)
+📸 Screenshot:  
+![Smallest of Three](screenshots/smallnum.png)
+
+---
+
+### **5️⃣ DiscountCalculator.java**  
+Applies a discount based on purchase amount:
+
+| Amount Range | Discount |
+|--------------|----------|
+| < 500        | 0%       |
+| 500–1000     | 10%      |
+| > 1000       | 20%      |
+
+📸 Screenshot:  
+![Discount Calculator](screenshots/discountcal.png)
+
+---
+
+### **6️⃣ NumberPatternGenerator.java**  
+Prints a number-based pattern using loops.
+
+📸 Screenshot:  
+![Pattern](screenshots/pattern.png)
+
+---
+
+### **7️⃣ NumberPatternGeneratorAlt.java**  
+Alternative implementation of the number pattern.
 
 ---
 
 ## ▶️ Running the Programs
 
-### **1. Clone the Repository**
+### Clone Repository
 ```bash
-git clone https://github.com/TheComputationalCore/java-oop-fundamentals.git
-cd java-oop-fundamentals/src
+git clone https://github.com/TheComputationalCore/java-basics-control-flow.git
+cd java-basics-control-flow/src
 ```
 
-### **2. Compile**
+### Compile All Programs
 ```bash
 javac *.java
 ```
 
-### **3. Run (examples)**
+### Run a Specific Program
 ```bash
-java Person
-java Product
-java Account
-java XYZ
+java PrintNumberRange
+java CheckNumberSign
+java ReverseNumber
+java FindSmallestOfThree
+java DiscountCalculator
+java NumberPatternGenerator
 ```
 
 ---
 
-## 📦 Requirements
-- Java JDK **8 or higher**
-- Any terminal or Java IDE
+## 🛠 Requirements
+- Java **JDK 8 or higher**
+- Any Java IDE or terminal
 
 ---
 
-## 📄 License  
-This project is licensed under the MIT License.
+## 📄 License
+This project is licensed under the **MIT License**.
+
