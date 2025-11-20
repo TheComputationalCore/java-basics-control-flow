@@ -1,8 +1,8 @@
-package Task1;
+package java-basic-programs;
 
 import java.util.Scanner;
 
-public class QuestionSix {
+public class NumberPatternGenerator {
 	 public static void main(String[] args) {
 	        try (Scanner obj = new Scanner(System.in)) {
 				System.out.println("Enter the number of rows");
