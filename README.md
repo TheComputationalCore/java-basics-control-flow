@@ -64,8 +64,8 @@ task1/
 ├── NumberPatternGeneratorAlt.java
 ├── PrintNumRange.java
 ├── ReverseNumber.java
-├── Problems.md
-└── README.md
+──Problems.md
+──README.md
 ```
 
 ---
