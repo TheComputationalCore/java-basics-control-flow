@@ -1,4 +1,4 @@
-package javabasicprograms;
+package task1;
 
 import java.util.Scanner;
 
