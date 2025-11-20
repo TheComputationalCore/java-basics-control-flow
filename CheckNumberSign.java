@@ -1,8 +1,8 @@
-package Task1;
+package java-basic-programs;
 
 import java.util.Scanner;
 
-public class QuestionTwo {
+public class CheckNumberSign {
 	public static void main(String[] args) {
 		try (Scanner sc = new Scanner(System.in)) {
 			System.out.println("Enter the number you want to check");
