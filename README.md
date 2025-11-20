@@ -39,7 +39,7 @@ task1/
 ## 🖼️ Program Output Screenshots
 
 ### 1️⃣ Print Number Range  
-![PrintNumRange](printnumrange.png)
+![PrintNumRange](printnumrange)
 
 ### 2️⃣ Check Number Sign  
 ![Check Number Sign](numcheck.png)
