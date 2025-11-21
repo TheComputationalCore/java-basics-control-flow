@@ -13,23 +13,32 @@ It includes **7 standalone programs**, each focusing on a fundamental Java conce
 
 ```
 java-basics-control-flow/
+│
+├── .github/
+│   └── workflows/
+│       └── java-ci.yml
+│
+├── screenshots/
+│   ├── discountcal.png
+│   ├── numcheck.png
+│   ├── pattern.png
+│   ├── printnumrange.png
+│   ├── reversenum.png
+│   └── smallnum.png
+│
 ├── src/
-│   ├── PrintNumberRange.java
 │   ├── CheckNumberSign.java
-│   ├── ReverseNumber.java
-│   ├── FindSmallestOfThree.java
 │   ├── DiscountCalculator.java
+│   ├── FindSmallestOfThree.java
 │   ├── NumberPatternGenerator.java
 │   ├── NumberPatternGeneratorAlt.java
-├── screenshots/
-│   ├── printnumrange.png
-│   ├── numcheck.png
-│   ├── reversenum.png
-│   ├── smallnum.png
-│   ├── discountcal.png
-│   ├── pattern.png
+│   ├── PrintNumRange.java
+│   └── ReverseNumber.java
+│
 ├── LICENSE
+├── Problems.md
 └── README.md
+
 ```
 
 ---
